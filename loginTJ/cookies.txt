@@ -1,0 +1,2 @@
+<Cookie UrnNovellNidpClusterMemberId=~03~0Bslo~0A~0B~14mop~09~0F for ids.tongji.edu.cn/nidp>
+<Cookie JSESSIONID=EFA63D14ADA337B0B578BFAD6A2A2C7D for ids.tongji.edu.cn/nidp/>
