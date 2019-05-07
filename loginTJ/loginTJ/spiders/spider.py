@@ -30,7 +30,7 @@ class TongJiSpider(CrawlSpider):
     def start_requests(self):
         yield FormRequest("https://ids.tongji.edu.cn:8443/nidp/saml2/sso?id=527&sid=1&option=credential&sid=1",
                           headers=self.post_headers, meta={"cookiejar": 1},
-                          callback=self.logged_in, formdata={"Ecom_User_ID": "1452311", "Ecom_Password": "214231"},
+                          callback=self.logged_in, formdata={"Ecom_User_ID": "xxxxxx", "Ecom_Password": "xxxxxx"},
                           )
 
 

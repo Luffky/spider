@@ -27,8 +27,8 @@ class DoubanSpider(Spider):
     }
 
     def start_requests(self):
-        yield FormRequest("https://accounts.douban.com/login", headers=self.headers, formdata={"form_email": "592067303@qq.com",
-        "form_password": "fky1996214"}, callback=self.logged_in)
+        yield FormRequest("https://accounts.douban.com/login", headers=self.headers, formdata={"form_email": "xxxxxx",
+        "form_password": "xxxxxxx"}, callback=self.logged_in)
 
     def logged_in(self, response):
         yield Request(url=self.start_urls[0], headers=self.headers, callback=self.parse)
@@ -84,8 +84,8 @@ class DoubanSpider_2(Spider):
     }
 
     def start_requests(self):
-        yield FormRequest("https://accounts.douban.com/login", headers=self.headers, formdata={"form_email": "592067303@qq.com",
-        "form_password": "fky1996214"}, callback=self.logged_in)
+        yield FormRequest("https://accounts.douban.com/login", headers=self.headers, formdata={"form_email": "xxxxxx",
+        "form_password": "xxxxxx"}, callback=self.logged_in)
 
     def logged_in(self, response):
         for i in range(10000):

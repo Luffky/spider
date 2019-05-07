@@ -43,7 +43,7 @@ def reviewdata_insert(db):
 
 
 if __name__ == "__main__":  # 起到一个初始化或者调用函数的作用
-    db = pymysql.connect("localhost", "root", password="fky1996214", db="zm'sTable",use_unicode=True,charset='utf8')
+    db = pymysql.connect("localhost", "root", password="xxxxxx", db="zm'sTable",use_unicode=True,charset='utf8')
     cursor = db.cursor()
     prem(db)
     reviewdata_insert(db)
